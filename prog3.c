@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include <stdlib.h>
 
-#define MAX 5
+#define MAX 5  //size of the queue
 
 int queue[MAX];
 int front = -1, rear = -1;
 
-void insert() {
+void insert() {    //insert elements into the queue
     int item;
     printf("Enter the element to insert: ");
     scanf("%d", &item);
